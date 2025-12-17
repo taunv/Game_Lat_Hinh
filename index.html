@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Lật Hình Siêu Cấp</title>
+    <link rel="stylesheet" href="styles_mc.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧠 Vua Trí Nhớ</h1>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="themeSelect">Chủ đề:</label>
+                <select id="themeSelect">
+                    <option value="animals">🐶 Động vật</option>
+                    <option value="fruits">🍎 Trái cây</option>
+                    <option value="sweets">🍬 Bánh kẹo</option>
+                    <option value="household">🏠 Nhà cửa</option>
+                    <option value="vehicles">🚗 Xe cộ</option>
+                    <option value="sports">⚽ Thể thao</option>
+                    <option value="numbers">🔢 Con số</option>
+                    <option value="letters">🅰️ Chữ cái</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <span id="timer">⏳ 30s</span>
+            </div>
+
+            <button onclick="restartGame()" class="btn-restart">🔄 Chơi mới</button>
+        </div>
+
+        <div class="game-board" id="gameBoard"></div>
+        <p class="guide">🎵 Click vào màn hình để bắt đầu nhạc nền</p>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="bg_music.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="clapSound">
+        <source src="clap.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="scripts_mc.js"></script>
+</body>
+</html>
