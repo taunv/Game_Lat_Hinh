@@ -30,7 +30,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 let countdown;
-let timeLeft = 30;
+let timeLeft = 60;
 let matchCount = 0;
 let isMusicPlaying = false;
 
