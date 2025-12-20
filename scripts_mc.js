@@ -167,7 +167,7 @@ function disableCards() {
         clearInterval(countdown);
         setTimeout(() => {
             // Hiệu ứng chiến thắng
-            alert(`🎉 XUẤT SẮC! Bạn hoàn thành trong ${30 - timeLeft} giây!`);
+            alert(`🎉 XUẤT SẮC! Bạn hoàn thành trong ${60 - timeLeft} giây!`);
         }, 500);
     }
 }
