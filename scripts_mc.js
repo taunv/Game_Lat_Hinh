@@ -67,7 +67,7 @@ function getRandomIcons(themeKey) {
 
 function initGame() {
     clearInterval(countdown);
-    timeLeft = 30;
+    timeLeft = 60;
     matchCount = 0;
     timerDisplay.innerText = `⏳ ${timeLeft}s`;
     timerDisplay.style.color = '#f1c40f'; // Reset màu
